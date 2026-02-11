@@ -1,5 +1,6 @@
 {{ config(
-    materialized='table'
+    materialized='table',
+    snowflake_warehouse='FINOPS_WH_LARGE'
 ) }}
 -- dbt_model: fct_window_spill
 -- expected_behavior: severe_local_and_remote_spill

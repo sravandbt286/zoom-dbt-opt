@@ -1,6 +1,7 @@
 {{ 
   config(
-    materialized='table'
+    materialized='table',
+    snowflake_warehouse='FINOPS_WH_LARGE'
   ) 
 }}
 -- dbt_model: fct_remote_spill_sample_data

@@ -1,4 +1,5 @@
-{{ config(materialized='table') }}
+{{ config(materialized='table',
+snowflake_warehouse='FINOPS_WH_SMALL') }}
 
 -- dbt_model: agg_revenue_optimal
 -- expected_behavior: well_sized

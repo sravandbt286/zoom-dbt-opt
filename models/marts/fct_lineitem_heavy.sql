@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
--- dbt_model: fct_lineitem_heavy
+
 SELECT
     l_orderkey,
     l_extendedprice,

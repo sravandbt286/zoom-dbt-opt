@@ -2,7 +2,7 @@
     materialized='table',
     snowflake_warehouse='FINOPS_WH_SMALL'
 ) }}
--- dbt_model: dim_customers_sort
+
 -- expected_behavior: sort_spill
 
 SELECT

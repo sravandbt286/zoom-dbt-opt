@@ -2,7 +2,7 @@
     materialized='table',
     snowflake_warehouse='FINOPS_WH_LARGE'
 ) }}
--- dbt_model: fct_under_provisioned_join
+
 -- expected_behavior: severe_join_spill
 
 SELECT

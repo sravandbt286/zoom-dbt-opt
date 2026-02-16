@@ -2,7 +2,7 @@
     materialized='table',
     snowflake_warehouse='FINOPS_WH_SMALL'
 ) }}
--- dbt_model: fct_orders_join
+
 -- expected_behavior: join_spill_on_small
 
 SELECT
